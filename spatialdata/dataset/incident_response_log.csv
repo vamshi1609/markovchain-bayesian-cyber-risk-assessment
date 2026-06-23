@@ -1,0 +1,11 @@
+incident_id,incident_date,affected_asset,cve_exploited,threat_actor,detection_time_minutes,analysis_time_minutes,response_time_minutes,remediation_time_hours,severity_level,response_effectiveness_percent,lessons_learned
+INC_001,2025-02-10,Database_Cluster,CVE-2022-21896,Ransomware-Syndicate-X,45,120,30,6.0,High,75,Enable network segmentation
+INC_002,2025-01-28,Financial_Transaction_Server,CVE-2021-44228,APT-Advanced-Persistent-Threat,120,180,45,10.0,Critical,65,Update WAF rules immediately
+INC_003,2025-02-05,Authentication_Service,CVE-2021-3129,State-Sponsored-Group-Alpha,30,90,20,4.5,High,85,Implement MFA enforcement
+INC_004,2025-01-15,API_Gateway,CVE-2022-24765,Insider-Threat-Network,60,150,40,8.0,High,70,Review access control policies
+INC_005,2025-02-12,Admin_Console,CVE-2021-39165,APT-Advanced-Persistent-Threat,25,75,15,3.0,Critical,90,Increase monitoring for C2 traffic
+INC_006,2025-02-08,VPN_Gateway,CVE-2021-44228,Data-Exfiltration-Group,90,200,60,12.0,Critical,60,Upgrade VPN appliances
+INC_007,2025-01-20,Load_Balancer,CVE-2022-3786,Distributed-Denial-Service,10,40,30,1.5,Medium,80,Implement DDoS mitigation
+INC_008,2025-02-15,Backup_Storage,CVE-2022-0540,Data-Exfiltration-Group,180,240,120,18.0,Critical,55,Encrypt backup data in-transit
+INC_009,2025-02-03,Email_Server,CVE-2021-21985,Email-Spoofing-Campaign,120,150,90,5.0,Medium,70,Implement DKIM/SPF/DMARC
+INC_010,2025-02-18,DNS_Service,CVE-2022-21123,DNS-Hijacking-Attack,15,60,25,2.0,High,88,Deploy DNSSEC validation

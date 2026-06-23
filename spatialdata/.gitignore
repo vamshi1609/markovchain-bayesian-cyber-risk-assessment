@@ -1,0 +1,3 @@
+spenv/
+__pycache__/
+*.pyc

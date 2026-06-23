@@ -1,0 +1,11 @@
+asset,cve,epss_score,criticality,location,network_criticality,business_impact
+Financial_Transaction_Server,CVE-2021-44228,0.92,9.8,New York,Critical,Severe - Financial transactions halted
+Database_Cluster,CVE-2022-21896,0.87,9.5,London,Critical,Severe - Data access blocked
+Authentication_Service,CVE-2021-3129,0.85,9.7,Singapore,Critical,Severe - User login disabled
+API_Gateway,CVE-2022-24765,0.78,8.5,Tokyo,High,Major - Service endpoints unavailable
+Admin_Console,CVE-2021-39165,0.95,9.3,Frankfurt,Critical,Severe - System administration compromised
+Backup_Storage,CVE-2022-0540,0.72,7.8,Mumbai,High,Major - Backup restoration unavailable
+VPN_Gateway,CVE-2021-44228,0.92,9.2,Sydney,Critical,Severe - Remote access offline
+Load_Balancer,CVE-2022-3786,0.68,8.2,Dubai,High,Major - Traffic distribution failed
+Email_Server,CVE-2021-21985,0.81,7.5,Toronto,Medium,Major - Communication system offline
+DNS_Service,CVE-2022-21123,0.88,9.1,Singapore,Critical,Severe - Domain resolution disabled

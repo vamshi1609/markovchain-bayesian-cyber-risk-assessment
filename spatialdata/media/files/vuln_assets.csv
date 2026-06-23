@@ -1,0 +1,11 @@
+asset,cve,epss_score,criticality,location
+Flood_Monitoring_System,CVE-2021-44228,0.92,9.5,Mumbai
+Early_Warning_Service,CVE-2022-22963,0.78,9.0,Delhi
+Disaster_Database,CVE-2020-14882,0.45,8.5,Bangalore
+Emergency_Alert_API,CVE-2023-21840,0.88,9.2,Mumbai
+Satellite_Data_Center,CVE-2021-3129,0.35,7.8,Hyderabad
+GIS_Analysis_Server,CVE-2017-9822,0.12,7.2,Pune
+Communication_Network,CVE-2022-26134,0.65,8.8,Delhi
+Dam_Control_System,CVE-2021-21978,0.88,9.8,All Regions
+Weather_Integration,CVE-2023-0156,0.55,8.0,All Regions
+Public_Portal,CVE-2019-2725,0.25,6.5,Mumbai

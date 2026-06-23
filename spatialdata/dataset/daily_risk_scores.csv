@@ -1,0 +1,21 @@
+assessment_date,asset_name,daily_risk_score,exploit_detections,active_threats,patches_applied,incidents_this_week,weather_related_alerts,system_health_percent,predicted_risk_tomorrow,recommended_action
+2025-02-24,Financial_Transaction_Server,8.7,2,3,0,1,0,85,8.9,Increase monitoring - APT activity detected
+2025-02-24,Database_Cluster,8.4,1,2,0,0,0,88,8.6,Patch unpatched vulnerabilities urgently
+2025-02-24,Authentication_Service,7.9,0,1,0,0,0,91,8.1,Monitor for credential stuffing attempts
+2025-02-24,API_Gateway,6.8,1,2,1,0,0,75,7.2,Deploy WAF rules for recent CVE
+2025-02-24,Admin_Console,8.9,3,2,0,1,0,90,9.1,Restrict admin access - enforce MFA
+2025-02-24,Backup_Storage,6.2,0,1,0,0,0,80,6.5,Encrypt backup channels immediately
+2025-02-24,VPN_Gateway,8.8,2,3,0,1,0,94,9.0,Review VPN logs for suspicious access
+2025-02-24,Load_Balancer,5.1,0,1,1,0,0,94,5.3,Monitor for DDoS attack patterns
+2025-02-24,Email_Server,7.2,1,2,0,0,0,85,7.4,Update DKIM/SPF configurations
+2025-02-24,DNS_Service,8.5,1,2,0,0,0,93,8.7,Enable DNSSEC validation now
+2025-02-25,Financial_Transaction_Server,8.9,3,3,0,2,0,82,9.2,Critical - Isolate if possible
+2025-02-25,Database_Cluster,8.6,2,2,1,0,0,89,8.8,Apply emergency security patch
+2025-02-25,Authentication_Service,8.1,1,1,0,0,0,90,8.3,Implement additional rate limiting
+2025-02-25,API_Gateway,7.2,1,2,1,0,0,76,7.5,Monitor response times closely
+2025-02-25,Admin_Console,9.1,4,3,0,1,0,88,9.3,Escalate to security team
+2025-02-25,Backup_Storage,6.5,0,2,1,0,0,82,6.8,Verify backup integrity urgently
+2025-02-25,VPN_Gateway,9.0,3,3,0,1,0,93,9.2,Review all remote access logs
+2025-02-25,Load_Balancer,5.3,0,1,1,0,0,95,5.4,Continue baseline monitoring
+2025-02-25,Email_Server,7.4,1,2,0,0,0,86,7.6,Monitor message queue health
+2025-02-25,DNS_Service,8.7,2,2,1,0,0,92,8.9,Verify resolver configuration

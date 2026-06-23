@@ -1,0 +1,11 @@
+threat_actor_id,threat_actor_name,attack_vector,target_asset,attack_frequency_per_week,success_rate_percent,avg_time_to_compromise_hours,capability_level,intent,last_observed_date,threat_level
+THREAT_001,APT-Advanced-Persistent-Threat,Network Intrusion,Financial_Transaction_Server,3,45.0,8.5,Critical,Financial Gain,2025-02-24,Critical
+THREAT_002,Ransomware-Syndicate-X,Phishing Email,Database_Cluster,5,32.0,12.0,High,Financial Gain,2025-02-23,Critical
+THREAT_003,State-Sponsored-Group-Alpha,Supply Chain,Admin_Console,1,78.0,6.0,Critical,Espionage,2025-02-15,Critical
+THREAT_004,Insider-Threat-Network,Social Engineering,API_Gateway,2,25.0,3.0,Medium,Data Theft,2025-02-22,High
+THREAT_005,Credential-Harvesting-Botnet,Credential Stuffing,Authentication_Service,10,15.0,0.5,Low,Account Takeover,2025-02-25,High
+THREAT_006,Distributed-Denial-Service,DDoS Attack,Load_Balancer,8,40.0,0.1,Medium,Disruption,2025-02-24,High
+THREAT_007,Data-Exfiltration-Group,Data Theft,Backup_Storage,2,60.0,18.0,High,Financial Gain,2025-02-20,Critical
+THREAT_008,Vulnerability-Scanner-Network,Scanning,VPN_Gateway,12,8.0,1.0,Low,Reconnaissance,2025-02-25,Medium
+THREAT_009,Email-Spoofing-Campaign,Email Spoofing,Email_Server,15,18.0,0.5,Low,Phishing,2025-02-25,Medium
+THREAT_010,DNS-Hijacking-Attack,DNS Poisoning,DNS_Service,4,35.0,2.0,Medium,Traffic Interception,2025-02-21,High

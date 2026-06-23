@@ -1,0 +1,11 @@
+source,target,weight,attack_difficulty,attack_path_risk
+Database_Cluster,Financial_Transaction_Server,0.98,Very Hard,Critical
+Authentication_Service,Financial_Transaction_Server,0.95,Very Hard,Critical
+API_Gateway,Database_Cluster,0.99,Hard,Critical
+API_Gateway,Admin_Console,0.92,Very Hard,Critical
+Admin_Console,VPN_Gateway,0.96,Very Hard,Critical
+Load_Balancer,API_Gateway,0.87,Medium,High
+DNS_Service,API_Gateway,0.94,Hard,Critical
+Authentication_Service,Admin_Console,0.91,Very Hard,Critical
+Email_Server,DNS_Service,0.85,Medium,High
+Backup_Storage,Database_Cluster,0.88,Hard,Critical

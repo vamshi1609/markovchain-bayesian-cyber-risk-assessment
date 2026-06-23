@@ -1,0 +1,11 @@
+asset_id,asset_name,assessment_date,uptime_percent,patch_level,vulnerabilities_unpatched,response_time_sec,network_criticality,data_sensitivity,business_impact,current_risk_score,trend
+ASSET_001,Financial_Transaction_Server,25-02-2025,,92,2,0.5,Critical,Critical,Severe,8.7,Increasing
+ASSET_002,Database_Cluster,25-02-2025,97.8,88,3,0.6,Critical,Critical,Severe,8.4,Increasing
+ASSET_003,Authentication_Service,25-02-2025,99.1,95,1,0.4,Critical,Critical,Severe,7.9,Stable
+ASSET_004,API_Gateway,25-02-2025,96.2,75,5,0.8,High,High,Major,6.8,Increasing
+ASSET_005,Admin_Console,25-02-2025,98.9,90,2,0.5,Critical,Critical,Severe,8.9,Increasing
+ASSET_006,Backup_Storage,25-02-2025,95.5,80,4,0.9,High,High,Major,6.2,Increasing
+ASSET_007,VPN_Gateway,25-02-2025,99.3,94,1,0.3,Critical,Critical,Severe,8.8,Stable
+ASSET_008,Load_Balancer,25-02-2025,94.1,70,6,1.2,High,Medium,Moderate,5.1,Stable
+ASSET_009,Email_Server,25-02-2025,97,85,3,0.7,Medium,High,Major,7.2,Decreasing
+ASSET_010,DNS_Service,25-02-2025,99,93,2,0.4,Critical,Critical,Severe,8.5,Increasing

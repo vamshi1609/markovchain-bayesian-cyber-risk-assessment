@@ -1,0 +1,20 @@
+<h2>Cyber Risk Dashboard</h2>
+<p>Aggregate impact: {{ impact }}</p>
+<h3>Probability distribution</h3>
+<ul>
+{% for node,prob in distribution.items %}
+  <li>Asset {{ node }} – {{ prob }}</li>
+{% endfor %}
+</ul>
+<h3>Attack paths</h3>
+<ul>
+{% for path in paths %}
+  <li>{{ path }}</li>
+{% endfor %}
+</ul>
+<h3>Progression estimates</h3>
+<ul>
+{% for path,time in progression.items %}
+  <li>{{ path }} &rarr; {{ time }} units</li>
+{% endfor %}
+</ul>
